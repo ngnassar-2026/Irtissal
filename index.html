@@ -169,33 +169,48 @@ footer {
 
 <body>
 
-<!-- NAVIGATION WITH NEW SVG LOGO -->
+<!-- NAVIGATION WITH NEW LOGO (ABSTRACT BRIDGE + ARABIC) -->
 <div class="nav">
     <div class="logo">
-        <a href="#" style="display:flex; align-items:center; text-decoration:none;">
-            <svg width="56" height="56" viewBox="0 0 100 100" style="margin-right:14px;">
-                <!-- Outer circle -->
-                <circle cx="50" cy="50" r="46" 
-                    stroke="var(--gold)" 
-                    stroke-width="2" 
-                    fill="none"/>
+        <a href="#" style="text-decoration:none; display:flex; align-items:center; gap:12px;">
+            <svg width="48" height="48" viewBox="0 0 100 100">
+                <path d="M20 60 L40 40 L60 60 L80 40" 
+                      stroke="var(--gold)" 
+                      stroke-width="3" 
+                      fill="none" 
+                      stroke-linecap="round"/>
                 
-                <!-- 8-point geometric star -->
-                <g stroke="var(--gold)" stroke-width="2" fill="none">
-                    <polygon points="50,15 61,39 85,39 66,55 73,80 50,65 27,80 34,55 15,39 39,39"/>
-                    <polygon points="50,22 58,42 78,42 62,55 67,72 50,62 33,72 38,55 22,42 42,42"/>
-                </g>
+                <circle cx="30" cy="65" 
+                        r="6" 
+                        stroke="var(--gold)" 
+                        stroke-width="2" 
+                        fill="none"/>
+                
+                <circle cx="70" cy="35" 
+                        r="6" 
+                        stroke="var(--gold)" 
+                        stroke-width="2" 
+                        fill="none"/>
             </svg>
 
-            <span style="
-                font-family:'Playfair Display', serif;
-                font-weight:600;
-                letter-spacing:3px;
-                font-size:22px;
-                color:var(--gold);
-            ">
-                IRTISSAL
-            </span>
+            <div style="display:flex; flex-direction:column; align-items:flex-start;">
+                <span style="font-family:'Playfair Display', serif; 
+                             font-weight:600; 
+                             letter-spacing:3px; 
+                             font-size:22px; 
+                             color:var(--gold); 
+                             line-height:1.2;">
+                    IRTISSAL
+                </span>
+
+                <span style="font-family:'Arial', sans-serif; 
+                             font-weight:400; 
+                             font-size:18px; 
+                             color:var(--gold); 
+                             opacity:0.9;">
+                    إرتصال
+                </span>
+            </div>
         </a>
     </div>
     <div>
@@ -369,7 +384,7 @@ footer {
 
 <footer>
     <div style="margin-bottom:10px;">
-        <span style="color:var(--gold); font-weight:600;">IRTISSAL</span> — Relationship Infrastructure for the Arab Market
+        <span style="color:var(--gold); font-weight:600;">IRTISSAL</span> — إرتصال — Relationship Infrastructure for the Arab Market
     </div>
     <div>© 2026 IRTISSAL. All rights reserved.</div>
 </footer>
